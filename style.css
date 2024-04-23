@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 229, 219);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container header {
+    display: block;
+    border-radius: 20px;
+    border: solid black;
+    box-shadow: 20px 10px;
+    margin: 100px /* 500px */ 5px /* 500px */;
+    padding: 20px 0px 20px 0px;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    color: rgba(210, 71, 71, 0.495);
+    font-size: 25px;
+    margin: 10px 64px 5px 64px;
+}
+
+p {
+    margin-top: 0px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.751);
+    margin: 6px;
+    
+}
+
+.si button {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+    width: 50px;
+    height: 28px;
+    font-size: 18px;
+    color: rgb(72, 176, 31);
+    background-color: rgba(47, 79, 79, 0.119);
+}
+
+.center {
+    /* margin-top: 0px;
+    margin-left: 180px;
+    margin-right: 182px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.no div {
+    padding: 0px;
+    margin: 0px;
+}
+
+.no button {
+    display: block;
+    padding: 0px 0px 0px 0px;
+    width: 58px;
+    height: 28px;
+    font-size: 18px;
+    color: rgb(182, 38, 38);
+    background-color: rgba(47, 79, 79, 0.119);
+    animation-duration: 2s;
+}
